@@ -1,4 +1,4 @@
-Na pocetok mora da se izvrsi php artisan storage:link za da se prikazat slikite od storage!
+Run on start:   php artisan storage:link
 
 
 
