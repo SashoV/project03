@@ -1,0 +1,173 @@
+body {
+    background-color: #f6f7fb;
+}
+
+.navbar-custom {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.btn-nav {
+    background-color: #5e5af5;
+    color: white;
+}
+
+#btn-nav {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+}
+
+#btn-nav:hover, #btn-nav:focus {
+    color: #5e5af5;
+    border-color: #5e5af5;
+}
+
+.logo {
+    width: 40px;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+.card-container {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.jumbotron {
+    background-color: #5e5af5;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.custom-input {
+    background-color: #4747cd;
+    border-color: #4747cd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.custom-input-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    min-height: 500px;
+    position: relative;
+    border: 1px solid #f6f7fb;
+    border-radius: 5px;
+}
+
+.thumbnail:hover {
+    text-decoration: none;
+    bottom: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.thumbnail img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.footer {
+    background-color: white;
+    color: #777;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-p {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.banner {
+    border: 1px solid #f6f7fb;
+    border-radius: 5px;
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.btn-custom {
+    width: 100%;
+    border-color: #f6f7fb;
+    background-color: #f6f7fb;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.count {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid #f6f7fb;
+    color: #777;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.index {
+    font-weight: bold;
+    color: #777;
+    font-size: 18px;
+}
+
+.lecture-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.date {
+    color: orange;
+    background-color: rgb(255, 245, 202);
+    padding: 2px 4px;
+}
+
+.modalForm {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.thumbImage {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.lecture-desc {
+    margin-top: 15px;;
+}
+
+@media only screen and (min-width: 992px) {
+    .btn-nav {
+        margin-left: 50px;
+        margin-right: 60px;
+    }
+}
